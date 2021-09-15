@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var login = ""
+    @State private var password = ""
+
     var body: some View {
         Text("Hello, world!")
             .padding()
